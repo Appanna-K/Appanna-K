@@ -1,0 +1,150 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.App{
+  height: 100vh;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.form-control{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 200px;
+  text-align: justify;
+}
+.btn{
+  background-color: rgb(63, 128, 228);
+  /* padding-right: 25px;
+  padding-left: 25px; */
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  border-radius: 5px;
+
+
+}
+
+.frgt-pswd{
+  margin-left: 180px;
+}
+
+.input-text{
+  display: flex;
+  flex-direction: column;
+}
+.image2{
+  margin-bottom: 50px;
+}
+
+
+.header{
+  /* color:black; */
+  margin-bottom:10px;
+}
+.para{
+  margin-top: 10px;
+  color:gray;
+}
+
+.keka-inpu{
+  border: 1px solid gray;
+}
+#keka{
+  border:1px solod gray;
+  
+}
+.bottom{
+  margin-top: 20px;
+  border: 1px solid ;
+  vertical-align: middle;
+  
+}
+
+
+.row{
+  display: flex;
+  /* position: fixed; */
+}
+#row1{
+  width: 65%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  /* position: fixed; */
+  /* border: 1px solid gray; */
+}
+#row2{
+  width: 35%;
+  /* border: 1px solid gray; */
+  background-color: whitesmoke;
+  /* position:fixed; */
+  overflow-y: auto;
+  overflow-x: hidden;
+margin-top: 50px;
+}
+
+.qdex{
+  vertical-align: middle;
+  width: 820px;
+  height: 620px;
+}
+.keka-com{
+padding: 10px;
+background-color:lightgray;
+}
+.input-change{
+  background-color:lightgray;
+  flex-direction: row;
+  text-align: justify;
+  padding-right: 250px;
+}
+small{
+  color: gray;
+  
+}
+footer{
+  padding-top: 30px;
+}
+img{
+width: 300px;
+height: 60px;
+}
+
+.login-line{
+  margin-top: 50px;
+  margin-left:30px
+}
+.bottom{
+  border: none;
+}
+
+.keka-logo{
+  width: 120px;
+  height: 50px;
+  
+}
+.gglstr{
+  width: 120px;
+  height: 50px;
+  margin-left: 10px;
+  
+}
+.plystr{
+  width: 120px;
+  height: 50px;
+  margin-left: 30px;
+  
+}
+.input:hover{
+border-color: rgb(63, 128, 228);
+
+}
